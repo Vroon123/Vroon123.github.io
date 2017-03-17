@@ -1,0 +1,315 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("background.jpeg");
+	z-index: -1; 
+}
+
+body > header {
+	z-index: 1;
+	color: white;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 8px 32px;
+    box-sizing: border-box;
+}
+.firstPage{
+	z-index: 1;
+	margin-top: 50px; 
+	display: flex;
+	justify-content: space-around;
+}
+.about{
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	margin: 30px 100px;
+	width: 350px;
+	height: 520px;
+	background-color: rgba(165,86,86,0.3);
+}
+
+.about img{
+	margin-top: 20px; 
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: solid grey;
+}
+.about h4{
+	margin-top: 30px;
+	font-size: 120%;
+
+}
+.about h5{
+	font-size: 110%;
+}
+.about ul{
+	list-style: none;
+	margin: 50px 4px;
+	padding: 4px 4px;
+
+}
+.about ul li{
+	padding: 4px;
+	border-top: solid white;
+}
+.navigate{
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	margin: 30px 100px;
+	width: 450px;
+	height: 520px;
+	background-color: rgba(57,123,63,0.5);
+}
+.navigate ul{
+	margin: 100px 15px;
+	list-style: none;
+	font-size: 150%; 
+}
+.navigate ul li{
+	margin-top: 30px;
+	/*border-bottom: solid grey;*/
+	text-decoration-style: solid; 
+}
+.navigate ul li a{
+	text-decoration: none;
+	color: white;
+}
+.navigate ul li a:hover{
+	color: red;
+	transform: scale(2);
+	background-color: rgba(211,211,211,0.6);
+}
+
+h1{
+	z-index: 1;
+	text-align: center;
+}
+h1 a{
+	color: none;
+}
+.secondPage{
+	background-image: url("college-degree.jpg");
+	opacity: 0.35;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	margin-top: 50px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 80px;
+}
+.secondPage:hover{
+	opacity: 0.9;
+}
+.secondPage header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.secondPage header h2{
+	margin-left: 30px;
+	font-size: 140%;
+	margin-top: 5px;
+	color: #e57e1e;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+
+}
+.secondPage ul{
+	margin: 70px 20px;
+	list-style: none;
+}
+.secondPage ul li{
+	padding: 12px;
+	color: dark green;
+	margin-top: 16px;
+	margin-left: 4px;
+	font-weight: bold;
+}
+.secondPage ul li:hover{
+	background-color: grey;
+}
+.achievements{
+	padding: 12px;
+	background-color: rgba(100,240,100,0.4);
+	background-image: none;
+	width: 800px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	margin-top: 120px;
+	margin-bottom:120px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+.achievements bulb img{
+	width: 30px;
+	height: 30px;
+	margin-right: 100px;
+}
+.achievements h2{
+	text-align: center;
+	font-family: arial;
+	text-decoration-color:grey;
+}
+.achievements h3{
+	text-align: center;
+}
+.achievements h5{
+	text-align: center;
+}
+.achievements main{
+	display: flex;
+}
+.technical ul{
+	padding: 4px;
+	list-style: none;
+}
+.technical ul li{
+	margin-top: 4px;
+}
+.nontech ul{
+	padding: 4px;
+	list-style: none;
+}
+
+.workEx{
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	margin-top: : 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 72px;
+	margin-top: 72px;
+	width: 700px;
+	height: 420px;
+	background-color: rgba(65,86,186,0.3);
+	padding: 12px;
+}
+.workEx h2{
+	text-align: center;
+}
+.workEx ul{
+	padding: 4px;
+	list-style: none;
+}
+.workEx ul li{
+	margin-top: 28px;
+}
+
+.Skills{
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32px;
+	margin-bottom: 100px;
+	width: 440px;
+	height: 580px;
+	background-color: rgba(205,86,186,0.3);
+	padding: 4px;
+}
+.Skills header{
+	margin: 20px;
+
+}
+.Skills ul {
+	margin: 8px;
+	list-style: none;
+	padding-top :24px;
+	padding-bottom: 24px;
+	border: solid white;
+	border-radius: 4px;
+}
+.Skill ul ul{
+	padding: none;
+}
+.Skills ul li{
+	text-decoration-color: blue;
+	padding :4px;
+
+}
+
+@media (max-width: 720px) {
+    div.firstpage {
+        flex-direction: column;
+        padding: 4px;
+        margin: 4px;
+    }
+    div.products {
+        flex-direction: column;
+        justify-content: center;
+    }
+    body > main {
+        padding: 8px 8px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    div.right {
+        margin-left: 0;
+    }
+    body > main > section > main {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    body > main > section > header {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+  
+
+
+}
+
+/*
+.try{
+	color: white;
+	z-index: 0;
+	height: 400px;
+	width: 400px;
+	background-color: rgba(255,0,0,0.5);
+}
+
+.background{
+	background-image: url("http://www.planwallpaper.com/static/images/Fall-Nature-Background-Pictures.jpg");
+	z-index: -1;
+	background-size: cover;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.bgpic{
+	height: 100px;
+	width: 100px;
+	z-index: 2;
+}
+*/
